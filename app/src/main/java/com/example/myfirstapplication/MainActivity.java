@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 resetBoard();
+                player1Points = 0;
+                player2Points = 0;
+                updatePointsText();
             }
         });
     }
